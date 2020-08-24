@@ -1,11 +1,15 @@
-# Welcome!
+# How to Proram Compound Interest
 
-This Python template lets you get started quickly with a simple one-page playground.
+Compound interest is the interest that is calculated on the initial principal & contains all of the accumulated interest from previous interval on a deposit or loan.
+Here is the python  programming for calculating Compound Interest.
 
 ```python runnable
-print('Hello World!')
+#Given Values
+def compound_interest(priniciple, rate, time):
+    #Code to calculate compound interest
+    CIn = principle *(pow((1+rate/100), time))
+    print("Compound interest is",CIn)
+# Code for Drive
+compound_interest(1000,10.25,6)
 ```
 
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
